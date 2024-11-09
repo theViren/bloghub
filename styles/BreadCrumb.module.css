@@ -1,0 +1,65 @@
+.breadcumb-body a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.colorful-div {
+    margin: -0.2rem;
+    padding-left: 20px;
+    width: auto;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to right, #b92b27, #1565C0);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+}
+
+.colorful-div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 0 25px 15px;
+    border-color: transparent transparent transparent white;
+}
+
+.colorful-div::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -15px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 0 25px 15px;
+    border-color: transparent transparent transparent #1565C0;
+}
+
+
+@media (max-width: 768px) {
+    .colorful-div {
+        letter-spacing: 0.03rem;
+        margin: -0.2rem;
+        font-size: 0.4rem;
+        padding-left: 10px;
+        height: 25px;
+    }
+
+    .colorful-div::before {
+        border-width: 12px 0 12px 7px;
+    }
+
+    .colorful-div::after {
+        right: -7px;
+        border-width: 12px 0 12px 7px;
+    }
+}

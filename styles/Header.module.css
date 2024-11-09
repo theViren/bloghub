@@ -1,0 +1,30 @@
+.university-icon {
+    margin-right: 0.5rem;
+}
+
+.custom-navbar {
+    background: linear-gradient(to right, #b92b27, #1565C0);
+    color: white;
+    font-weight: bold;
+    ;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    ;
+}
+
+.nav-link:hover {
+    color: white;
+    font-weight: bold;
+    ;
+}
+
+.sidebar-search-btn {
+    font-weight: bold;
+    border-radius: 0.5rem;
+    color: white;
+    border: none;
+    background: linear-gradient(to right, #FDC830, #F37335);
+}

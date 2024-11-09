@@ -1,0 +1,47 @@
+body {
+    overflow-x: hidden;
+}
+
+.slider-custom-left {
+    position: relative;
+    bottom: 8rem;
+    float: left;
+    color: red;
+}
+
+.slider-custom-right {
+    position: relative;
+    bottom: 8rem;
+    float: right;
+    color: red;
+
+}
+
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+    /* Disable box-shadow */
+}
+
+.btn-close {
+    background: #ffffff var(--bs-btn-close-bg) center/1em auto no-repeat !important;
+    --bs-btn-close-opacity: 2 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+
+.post-article {
+    border: 1px solid red;
+}
+
+.post-aside {
+    border: 1px solid red;
+}
+
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: none !important;
+}

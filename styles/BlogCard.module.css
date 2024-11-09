@@ -1,0 +1,105 @@
+/* styles.css */
+.blog-card {
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.blog-card .card {
+    border: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-card .card-body {
+    background: linear-gradient(to right, #b92b27, #1565C0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.blog-card .card-title {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    height: 70px;
+    overflow: hidden;
+}
+
+.blog-card .card-title:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.blog-card .card-text {
+    color: white;
+    font-weight: bold;
+}
+
+.tag-badge {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: linear-gradient(to right, #b92b27, #1565C0);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.tag-badge-latest {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: linear-gradient(to right, #FDC830, #F37335);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.btn-primary {
+    background-color: #ffee00;
+}
+
+.btn-primary:hover {
+    background-color: #ffc400;
+}
+
+.blog-card .card-body .divider {
+    border: none;
+    border-top: 2px solid white;
+    margin: 10px 0;
+}
+
+.blog-card .card-body .read-now-btn {
+    background: linear-gradient(to right, #FDC830, #F37335);
+    border: none;
+    font-weight: bold;
+}
+
+.blog-card .card-body .read-now-btn:hover {
+    background: linear-gradient(to right, #FDC830, #F37335);
+}
+
+.blog-card .card-body .btn-icon {
+    margin-left: 5px;
+}
+
+.read-now-btn:hover .btn-icon {
+    color: olive;
+}
+
+@media (max-width: 768px) {
+    .blog-card .card-title {
+        height: auto;
+        overflow: visible;
+    }
+}

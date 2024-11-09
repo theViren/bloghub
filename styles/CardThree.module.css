@@ -1,0 +1,40 @@
+.list-body {
+    background: linear-gradient(to right, #b92b27, #1565C0);
+}
+
+.list-title {
+    color: white;
+    font-weight: bolder;
+}
+
+.list-title:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: red;
+}
+
+.image-parent img {
+    width: 80px;
+    height: 75px;
+    border: 3px white solid;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.image-parent img:hover {
+    border: 3px darkred solid;
+}
+
+.list-badge {
+    cursor: pointer;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+}
